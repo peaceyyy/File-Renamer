@@ -17,25 +17,14 @@ This Python script allows you to rename files in a specified directory using var
   - Train-Case
   - COBOL-CASE
 
-## Prerequisites
-
-- Python 3.x installed on your system.
-- Basic understanding of command-line operations.
-
-## InstallationClone the repository or download the script file to your local machine.
-
-1. ```bash
-   git clone <repository-url>
-   ```
-
 ## Usage
 
-1. Run the script using Python.
+1. Run the script using Python. Make sure to change the directory to the folder that contains the script.
    ```bash
    python file_renamer.py
    ```
-2. Enter the full path of the directory containing the files you want to rename when prompted.
-3. Choose a naming convention from the list provided by entering the corresponding number.
+2. Enter the directory's full path containing the files you want to rename when prompted.
+3. Choose a naming convention from the list by entering the corresponding number.
 4. The script will rename all files in the specified directory according to the chosen naming convention and display the changes.
 
 ## Notes
